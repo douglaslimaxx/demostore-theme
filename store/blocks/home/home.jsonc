@@ -3,12 +3,12 @@
     "blocks": [
       "flex-layout.row#slider",
       "shelf#new-arrivals",
-      "shelf#clearance",
+      // "shelf#clearance",
       "flex-layout.row#newsletter",
       "rich-text#brands",
-      "flex-layout.row#brands",
-      "rich-text#instagram",
-      "flex-layout.row#instagram"
+      "flex-layout.row#brands"
+      // "rich-text#instagram",
+      // "flex-layout.row#instagram"
     ]
   },
 
@@ -29,7 +29,7 @@
 
   "flex-layout.row#slider": {
     "children": [
-      // "slider-layout#styles",
+      "slider-layout#styles",
       "carousel#home"
     ]
   },
@@ -48,16 +48,7 @@
     "blocks": ["product-summary.shelf"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
-      "paginationDotsVisibility": "never",
-      "collection": "139",
-      "productList": {
-        "maxItems": 9,
-        "itemsPerPage": 3,
-        "minItemsPerPage": 1.5,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": "New arrivals"
-      }
+      "collection": "139"
     }
   },
 
